@@ -1,0 +1,75 @@
+body
+{
+    background-color:antiquewhite;
+}
+.head
+{
+    text-align: center;
+}
+#heading
+{
+    color: black;
+    text-align: center;
+    background-color: antiquewhite;
+    text-decoration: underline;
+    border: 2px black;
+}
+#image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#About
+{
+    text-decoration: underline;
+}
+#para
+{
+    margin: auto;
+    width: 60%;
+    border: 2px solid antiquewhite;
+}
+table,th,td{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+tr:nth-child(even)
+{
+    background-color: lightblue;
+}
+tr:nth-child(odd)
+{
+    background-color: lightcoral;
+}
+th
+{
+    background-color: olive;
+}
+#map
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.maps
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.icons
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items:center;
+    justify-content: center;
+}
+
